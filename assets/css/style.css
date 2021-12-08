@@ -116,6 +116,9 @@ a:hover {
   .navbar-toggle-box i {
     font-size: 10px;
   }
+  .intro-title {
+    font-size: 18px;
+  }
 }
 
 .color-a {
@@ -306,7 +309,7 @@ a:hover {
 
 .title-a {
   text-decoration: none;
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -973,13 +976,18 @@ a:hover {
 }
 .intro .intro-title {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 2.8rem;
   text-transform: uppercase;
 }
 @media (min-width: 576px) {
   .intro .intro-title {
     font-size: 3.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .intro .intro-title {
+    font-size: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -989,7 +997,7 @@ a:hover {
 }
 @media (min-width: 992px) {
   .intro .intro-title {
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 }
 .intro .intro-subtitle {
