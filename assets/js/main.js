@@ -217,6 +217,7 @@ const btnService = document.querySelector('.services-scroll')
 const btnProjects = document.querySelector('.projects-scroll')
 const btnNews = document.querySelector('.news-scroll')
 const btnContact = document.querySelector('.contact-scroll')
+const btnContact2 = document.querySelector('.btn-about')
 
 
 
@@ -241,6 +242,11 @@ btnNews.addEventListener('click',function(e){
   sectionNews.scrollIntoView({behavior: "smooth"})
 })
 btnContact.addEventListener('click',function(e){
+  e.preventDefault()
+  sectionContact.scrollIntoView({behavior: "smooth"})
+})
+
+btnContact2.addEventListener('click',function(e){
   e.preventDefault()
   sectionContact.scrollIntoView({behavior: "smooth"})
 })
