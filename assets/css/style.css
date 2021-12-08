@@ -102,15 +102,18 @@ a:hover {
 }
 @media (max-width: 767px) {
   .text-brand {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 400px) {
   .text-brand span {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .navbar-toggle-box {
+    font-size: 10px;
+  }
+  .navbar-toggle-box i {
     font-size: 10px;
   }
 }
