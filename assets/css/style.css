@@ -102,7 +102,16 @@ a:hover {
 }
 @media (max-width: 767px) {
   .text-brand {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-brand span {
+    font-size: 0.7rem;
+  }
+  .navbar-toggle-box {
+    font-size: 10px;
   }
 }
 
@@ -221,6 +230,7 @@ a:hover {
     width: 33.333%;
   }
 }
+
 .list-a li:before {
   content: "";
   width: 10px;
@@ -229,49 +239,6 @@ a:hover {
   background-color: #313131;
   top: 15px;
   left: 0;
-}
-
-/*------/ Pagination-a /------*/
-.pagination-a {
-  text-decoration: none;
-}
-.pagination-a .pagination .page-link {
-  margin: 0 0.2rem;
-  border-color: transparent;
-  padding: 0.5rem 0.8rem;
-  color: #000000;
-}
-.pagination-a .pagination .page-link:hover,
-.pagination-a .pagination .page-link:active,
-.pagination-a .pagination .page-link:focus {
-  background-color: #2eca6a;
-}
-.pagination-a .pagination .page-link span {
-  font-size: 1.2rem;
-}
-.pagination-a .pagination .next .page-link {
-  padding: 0.4rem 0.9rem;
-}
-.pagination-a .pagination .page-item:last-child .page-link {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.pagination-a .pagination .page-item:first-child .page-link {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.pagination-a .pagination .page-item.disabled .page-link {
-  padding: 0.4rem 0.9rem;
-  color: #555555;
-}
-.pagination-a .pagination .page-item.active .page-link {
-  background-color: #2eca6a;
-}
-
-.a {
-  text-decoration: none;
-  color: #2eca6a;
-  font-size: 1.3rem;
 }
 
 /*------/ Icon Box /------*/
@@ -1788,113 +1755,6 @@ a:hover {
   .sinse-box p {
     font-size: 1rem;
   }
-}
-
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-.form-as #sendmessage {
-  color: #2eca6a;
-  border: 1px solid #26a356;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-.form-as #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-.form-as #sendmessage.show,
-.form-as #errormessage.show,
-.form-as .show {
-  display: block;
-}
-.form-as .validation {
-  color: red;
-  display: none;
-  margin: 4px 0 20px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-.form-as label {
-  color: #000000;
-  position: relative;
-}
-.form-as select.form-control-lg:not([size]):not([multiple]) {
-  height: 3.5rem;
-}
-.form-as .form-control {
-  border-radius: 0;
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-.form-as .form-control.form-control-a {
-  height: 3.5rem;
-}
-.form-as .form-control:focus {
-  box-shadow: none;
-  border-color: #2eca6a;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.php-email-form label {
-  color: #000000;
-  position: relative;
-}
-.php-email-form select.form-control-lg:not([size]):not([multiple]) {
-  height: 3.5rem;
-}
-.php-email-form .form-control {
-  border-radius: 0;
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-.php-email-form .form-control.form-control-a {
-  height: 3.5rem;
-}
-.php-email-form .form-control:focus {
-  box-shadow: none;
-  border-color: #2eca6a;
 }
 
 @-webkit-keyframes animate-loading {
