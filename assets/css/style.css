@@ -1862,7 +1862,7 @@ footer .credits {
 @media (max-width: 767px) {
   .footer-body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 2rem;
     gap: 15px;
   }
